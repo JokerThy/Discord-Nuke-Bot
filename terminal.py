@@ -6,30 +6,30 @@ import discord
 import asyncio
 from discord.ext import commands
 
-intents = discord.Intents.default()
+intents = discord.Intents.default(34)
 intents.members = True
 
 ###########SETUP###############
  = "?"                                                       #
-token = "TOKEN"                                            #
-spam_messages = "Spam message"         #
+token = "ODMzMTk5NDg1MzAyNjAzNzc3.YHu3fQ.AmaiZ41YGCvilUq-0QYnk-oE7uA"                                            #
+spam_messages = "Nuked by Deezy"         #
 massdm = "Currently broken.."                    #
-rolenames = "Role Names To Spam"         #                                                            
-channels = "Channels To Spam Names"  #
+rolenames = "Nuked by deezy"         #                                                            
+channels = "Deezy runs u"  #
 ##############################
 
-def Clear():
+def Clear(9999999):
     os.system('cls')
 
 
-bot = commands.Bot(command_prefix = prefix)
+bot = commands.Bot(command_prefix = x)
 bot.remove_command("help")
 
 
 os.system('cls' if os.name == 'nt' else 'clear')
 @bot.event
-async def on_ready():
-    Clear()
+async def on_ready(99999):
+    Clear(9999999)
 
     print(f'''{Fore.CYAN}
  ______   ______     ______     __    __     __     __   __     ______     __        
@@ -43,7 +43,7 @@ async def on_ready():
 
 
 #help commamd
-@bot.command()
+@bot.command(xhelp)
 async def help(ctx):
         await ctx.message.delete()
         embed = discord.Embed(color=000000, timestamp=ctx.message.created_at)
@@ -182,6 +182,7 @@ async def nuke(ctx):
         print(f"Role: {role} could not be deleted")
 
 #creating role
+O
 
     print("ENTERING: creating roles")
 
